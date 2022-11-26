@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .login-page{
+    max-width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    
+  
+  }
+  
+  .input-box {
+    width: 100%;
+    
+    
+  
+  }
+  
+  
+  .label-box {
+    width: 100%;
+   
+  
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .login-form {
+      width: 100%;
+    }
+  }
